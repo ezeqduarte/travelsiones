@@ -2,6 +2,16 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
 
+## Folder Structure
+
+The project follows a simple Clean Architecture layout:
+
+- `src/domain` – entities and business logic
+- `src/application` – use cases and application services
+- `src/infrastructure` – external service implementations
+- `src/presentation` – Angular components and routing
+
+Each empty folder contains a `README.md` so the directory is preserved in Git.
 ## Development server
 
 To start a local development server, run:
