@@ -2,8 +2,16 @@
 
 Aplicación móvil para turistas en Misiones, Argentina. Su objetivo es informar y guiar a los viajeros locales e internacionales a lo largo de su travesía.
 
-## Características principales
+## Folder Structure
 
+The project follows a simple Clean Architecture layout:
+
+- `src/domain` – entities and business logic
+- `src/application` – use cases and application services
+- `src/infrastructure` – external service implementations
+- `src/presentation` – Angular components and routing
+
+## Características principales
 - Los usuarios establecen un punto de salida y de llegada, la cantidad de días de viaje y el tipo de recorrido (directo o con paradas).
 - Con esa información, la app recomienda atracciones, cabañas, restaurantes y otros lugares de interés.
 - También sugiere paradas en la ruta o dentro de un radio específico de kilómetros para enriquecer la experiencia.
