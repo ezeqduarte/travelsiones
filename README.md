@@ -41,3 +41,14 @@ ng e2e
 
 Para obtener más información sobre Angular CLI consulte la [documentación oficial](https://angular.dev/tools/cli).
 
+
+## Arquitectura
+
+El proyecto sigue una organización basada en los principios de _Clean Architecture_. Dentro de `src/app` se definen tres carpetas principales:
+
+- `features/` alberga las **vistas** o páginas de la aplicación.
+- `shared/components/` contiene los **componentes reutilizables**.
+- `core/services/` incluye los **servicios** que encapsulan la lógica de negocio.
+
+Esta estructura separa responsabilidades y facilita el mantenimiento del código.
+
