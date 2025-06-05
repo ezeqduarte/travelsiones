@@ -9,7 +9,7 @@ The project follows a simple Clean Architecture layout:
 - `src/domain` – entities and business logic
 - `src/application` – use cases and application services
 - `src/infrastructure` – external service implementations
-- `src/presentation` – Angular components and routing
+- `src/app` – Angular components and routing
 
 ## Características principales
 - Los usuarios establecen un punto de salida y de llegada, la cantidad de días de viaje y el tipo de recorrido (directo o con paradas).
