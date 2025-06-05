@@ -1,6 +1,6 @@
 # Travelsiones
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+Aplicación móvil para turistas en Misiones, Argentina. Su objetivo es informar y guiar a los viajeros locales e internacionales a lo largo de su travesía.
 
 ## Folder Structure
 
@@ -11,59 +11,41 @@ The project follows a simple Clean Architecture layout:
 - `src/infrastructure` – external service implementations
 - `src/presentation` – Angular components and routing
 
-Each empty folder contains a `README.md` so the directory is preserved in Git.
-## Development server
+## Características principales
+- Los usuarios establecen un punto de salida y de llegada, la cantidad de días de viaje y el tipo de recorrido (directo o con paradas).
+- Con esa información, la app recomienda atracciones, cabañas, restaurantes y otros lugares de interés.
+- También sugiere paradas en la ruta o dentro de un radio específico de kilómetros para enriquecer la experiencia.
+- Busca resolver la falta de marketing y guía turística en la región de Misiones.
 
-To start a local development server, run:
+## Desarrollo
+
+Este proyecto está construido con [Angular](https://angular.io). Para comenzar con el desarrollo local, ejecute:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Abra el navegador en `http://localhost:4200/` para ver la aplicación. Los cambios en el código recargarán la página automáticamente.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+Para compilar la aplicación ejecute:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Los artefactos de producción se generarán en la carpeta `dist/`.
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Para ejecutar pruebas unitarias:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Si desea ejecutar pruebas end-to-end (e2e):
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Para obtener más información sobre Angular CLI consulte la [documentación oficial](https://angular.dev/tools/cli).
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
